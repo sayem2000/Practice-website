@@ -1,0 +1,168 @@
+*{margin: 0;
+padding: 0;
+line-height: 1.6;}
+
+body{font-family:Arial, Helvetica, sans-serif;}
+
+/* navbar section */
+nav{height: auto;
+width: 100%;
+background-color: darkslategrey;
+display: flex;
+position: fixed;}
+
+.nav-links{margin: 10px 0px 10px 200px;}
+
+.nav-links li{list-style: none;}
+
+.nav-links a{color: aliceblue;
+text-decoration: none;
+margin-left: 50px;}
+
+.nav-links a:hover{color: orange; transition: .3s;}
+
+.search{margin: 10px 0px 10px 700px;}
+
+.search img{width: 28px;
+height: 28px;}
+
+/* hero section */
+.hero {
+background-image: url(warfaze.jpg);
+width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+background-position: top;
+background-attachment: fixed;}
+
+/* band section */
+
+.band{padding: 60px 10px 0px 10px;
+}
+
+.band h1{text-align: center;}
+
+.we{text-align: center;}
+
+.have{text-align: justify;
+margin-top: 20px;}
+
+.band-images{margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.image1, .image2, .image3{width: 300px;
+height: 500px;text-align: center;}
+
+.image1 img, .image2 img, .image3 img{margin-top: 10px;
+width: 250px;
+height: 300px;}
+
+/* dates section */
+
+.form{ width: 900px;
+height:auto;
+margin-left: 250px;
+margin-top: 30px;}
+
+.tour-dates{background-color: black;
+padding: 50px;}
+
+.tour-dates h1, .tour-dates .rem{text-align: center;color: aliceblue;}
+
+.sep-sold, .Oc-sold, .Nov-sold{height: 30px;
+width: 930px;
+background-color: aliceblue;
+border-bottom: 2px solid black;
+display: flex;
+padding: 5px;
+gap: 50px;}
+
+.sold{background-color: brown;
+padding: 3px;
+height: 20px;
+width: 70px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.Nov-sold{gap: 800px;}
+
+.sold3{
+background-color:brown;
+padding: 3px;
+border-radius: 10px;}
+
+.ticket-images{display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;}
+
+.ticket-images1, .ticket-images2,.ticket-images3{width: 300px;
+height: auto;
+background-color: aliceblue;
+margin-left: 20px;
+padding: 0px 10px 10px 10px;}
+
+.ticket-images img{width: 300px;
+height: 200px;}
+
+.buy-ticket1, .buy-ticket2, .buy-ticket3{height: 30px;
+width:110px;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;}
+
+.ticket-images a{color: aliceblue;
+text-decoration: none;} 
+
+/* contact section */
+.contact{padding: 20px;
+display: flex;}
+
+.contact-main img{height: 20px; 
+width: 20px;}
+
+.main-image1, .main-image2, .main-image3{display: flex;
+gap: 10px;}
+
+.contact-main{width: 190px;
+justify-content: flex-start;
+margin-left: 300px;
+margin-top: 100px;}
+
+.main-image1, .main-image2,.main-image3{justify-content: left;
+align-items: center;}
+
+.main-image1 p, .main-image2 p, .main-image3 p{display: block;
+margin: 0;
+padding:0 ;}
+
+form{margin-top: 100px;
+margin-left: 20px;}
+
+.form1{display: flex;
+gap: 20px;}
+
+.form1 input{padding: 10px;
+font-size: 15px;}
+
+.h1{text-align: center;
+padding-top: 30px;}
+
+/* image section */
+
+.imagesection{width: 100%;
+height: 100vh;
+background-image: url(image.jpg);}
+
+/* footer section */
+
+.footer-icons{padding: 70px;
+text-align: center;}
+
+.footer-icons img{height: 20px;
+width: 20px;}
